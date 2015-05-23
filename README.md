@@ -17,7 +17,7 @@ STEPS:
 - Connect the LiPo battery and the motor to the motor driver board. Secure it somewhere (hot glue, screws...). The driver board provides 5V for the trinket and its friends.
 - Disassemble the DualShock receiver and make it breadboard-friendly. I glued a piece of perfboard and soldered wires from the PS2 connector to a pin strip. I've read online that it only works at 3.3V but mine works fine at 5V.
 - Connect the Pro Trinket, the OLED, the receiver and the driver board together. The pins I used are on first section of Cochecito2.ino
-- Uplolad sketch to the Pro Trinket. It requires Adafruit SSD1306, Adafruit SfotServo, PS2X_lib and EEPROM.h libraries.
+- Uplolad sketch (all .ino files) to the Pro Trinket. It requires Adafruit SSD1306, Adafruit SfotServo, PS2X_lib and EEPROM.h libraries.
 
 USING IT
 - Y axis of the left stick controls the drive motor
